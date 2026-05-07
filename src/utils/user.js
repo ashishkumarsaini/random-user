@@ -1,0 +1,1 @@
+export const formatFullName = (user) => `${user.name.title} ${user.name.first} ${user.name.last}`
