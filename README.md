@@ -1,16 +1,45 @@
-# React + Vite
+# Random Profile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and sleek user profile dashboard that displays random user data fetched from an API.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **API Client**: [Axios](https://axios-http.com/)
 
-## React Compiler
+## 🧱 Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **User Profile**: Displays detailed information about the selected user, including contact info, social links, and bio.
+- **User Cards**: A grid/list of quick-view cards used to switch between different profiles.
+- **Header**: Simple branding for the application.
 
-## Expanding the ESLint configuration
+## 📄 Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Main Dashboard**: A single-page interface where users can browse and select different profiles to view their details.
+
+## 🛠️ Start Guide
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd random-profile
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
